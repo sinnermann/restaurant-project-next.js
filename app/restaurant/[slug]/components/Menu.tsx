@@ -1,5 +1,7 @@
 import React from "react";
 import MenuCard from "./MenuCard";
+import MenuCard2 from "./MenuCard2";
+import MenuCard3 from "./MenuCard3";
 
 export default function Menu() {
   return (
@@ -10,6 +12,9 @@ export default function Menu() {
         </div>
         <div className="flex flex-wrap justify-between">
           {/* MENU CARD */}
+          <MenuCard />
+          <MenuCard2 />
+          <MenuCard3 />
           <MenuCard />
           {/* MENU CARD */}
         </div>
